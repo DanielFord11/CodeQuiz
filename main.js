@@ -20,3 +20,8 @@ var questionsElement = document.getElementById("#questions")
 var timer = 120;
 var score = 0;
 var questionsIndex = 0;
+
+/* a function for counting down the timer(human time) activity ref 
+
+a function underneath previous function containing our while loop 
+this will render the questions and options to the questions section of the html and also contain a conditional that makes sure they got the right answer to the questions, and judging by their answer either increments their score or removes time.*/
